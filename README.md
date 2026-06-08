@@ -74,3 +74,7 @@ To run the tool from Python, follow these steps:
 
 The demo dataset used in the paper can be downloaded trough this [link](https://www.kaggle.com/datasets/d191761/comot-demo)
 
+---
+## Contact
+
+For contributions and questions regarding this tools, please contact nasrullah.harino.a@mail.ugm.ac.id
