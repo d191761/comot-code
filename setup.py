@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="cellcv",  # Name of your package
-    version="0.1.0",  # Version of your package
+    version="1.0.0",  # Version of your package
     author="jendralhxr, m172205, d191761",
     author_email="zulhaj@hiroshima-u.ac.jp",
     description="Cell counting and motility evaluation estimation on from video data",
