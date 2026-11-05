@@ -222,6 +222,9 @@ class VideoPlayer:
         if self.thresholding_method == "triangle":
             # Align maxval with binary path for consistent scaling/integration
             ret, cue = cv.threshold(cue, 0, 250, cv.THRESH_TRIANGLE)
+            timestamp = frame_i / self.video_data.fps
+            # verbose check on the threshold
+            print(f"[Frame {frame_i} | Timestamp: {timestamp:.3f}s] Threshold:{ret}")
         elif self.thresholding_method == "binary":
             ret, cue = cv.threshold(
                 cue, self.binary_thresholding_param, 250, cv.THRESH_BINARY
