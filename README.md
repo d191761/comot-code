@@ -1,4 +1,4 @@
-# **COMOT: Cell Counting and Motility Observation Tool**
+# **COMOT: Cell Observation, Monitoring, and Counting Tool**
 [![Ruff](https://img.shields.io/badge/linter-Ruff-blue)](https://github.com/charliermarsh/ruff) [![MIT License](https://img.shields.io/badge/license-MIT-green)](https://github.com/d191761/comot/blob/main/LICENSE.md)
 
 **COMOT** is a Python-based software tool designed to automate microbial cell counting and motility measurement through image processing and computer vision techniques. It is built using [OpenCV](https://github.com/opencv/opencv-python) for processing and [customtkinter](https://github.com/TomSchimansky/CustomTkinter) for the user interface. Currently, it supports `.mp4` and `.mov` file formats.
